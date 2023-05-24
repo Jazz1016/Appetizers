@@ -23,6 +23,9 @@
 		0D5F5D242A1BCBAC00D61A2C /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5F5D232A1BCBAC00D61A2C /* LoadingView.swift */; };
 		0D5F5D262A1BCC7000D61A2C /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5F5D252A1BCC7000D61A2C /* Color+Ext.swift */; };
 		0D5F5D282A1BD1FC00D61A2C /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5F5D272A1BD1FC00D61A2C /* RemoteImage.swift */; };
+		0D5F5D582A1E516F00D61A2C /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5F5D572A1E516F00D61A2C /* AppetizerDetailView.swift */; };
+		0D5F5D5B2A1E5CA300D61A2C /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5F5D5A2A1E5CA300D61A2C /* APButton.swift */; };
+		0D5F5D5D2A1E5E9D00D61A2C /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5F5D5C2A1E5E9D00D61A2C /* XDismissButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +46,9 @@
 		0D5F5D232A1BCBAC00D61A2C /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		0D5F5D252A1BCC7000D61A2C /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 		0D5F5D272A1BD1FC00D61A2C /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		0D5F5D572A1E516F00D61A2C /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
+		0D5F5D5A2A1E5CA300D61A2C /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
+		0D5F5D5C2A1E5E9D00D61A2C /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,7 @@
 				0D5F5D052A1AF6FA00D61A2C /* AppetizerTabView.swift */,
 				0D5F5D112A1AF92C00D61A2C /* AppetizerListView.swift */,
 				0D5F5D1F2A1BB9D400D61A2C /* AppetizerListViewModel.swift */,
+				0D5F5D572A1E516F00D61A2C /* AppetizerDetailView.swift */,
 			);
 			path = AppetizerListView;
 			sourceTree = "<group>";
@@ -176,6 +183,7 @@
 		0D5F5D332A1BD92400D61A2C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0D5F5D592A1E5C6100D61A2C /* Buttons */,
 				0D5F5D352A1BD96300D61A2C /* Image */,
 				0D5F5D362A1BD96E00D61A2C /* Cells */,
 				0D5F5D342A1BD94700D61A2C /* UIKit Components */,
@@ -205,6 +213,15 @@
 				0D5F5D192A1BB08900D61A2C /* AppetizerListCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		0D5F5D592A1E5C6100D61A2C /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				0D5F5D5A2A1E5CA300D61A2C /* APButton.swift */,
+				0D5F5D5C2A1E5E9D00D61A2C /* XDismissButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,14 +296,17 @@
 			files = (
 				0D5F5D182A1BAA8D00D61A2C /* Appetizer.swift in Sources */,
 				0D5F5D1E2A1BB24900D61A2C /* APError.swift in Sources */,
+				0D5F5D5D2A1E5E9D00D61A2C /* XDismissButton.swift in Sources */,
 				0D5F5D1A2A1BB08900D61A2C /* AppetizerListCell.swift in Sources */,
 				0D5F5D202A1BB9D400D61A2C /* AppetizerListViewModel.swift in Sources */,
 				0D5F5D142A1AF93300D61A2C /* AccountView.swift in Sources */,
 				0D5F5D062A1AF6FA00D61A2C /* AppetizerTabView.swift in Sources */,
+				0D5F5D5B2A1E5CA300D61A2C /* APButton.swift in Sources */,
 				0D5F5D262A1BCC7000D61A2C /* Color+Ext.swift in Sources */,
 				0D5F5D1C2A1BB14F00D61A2C /* NetworkManager.swift in Sources */,
 				0D5F5D042A1AF6FA00D61A2C /* AppetizersApp.swift in Sources */,
 				0D5F5D282A1BD1FC00D61A2C /* RemoteImage.swift in Sources */,
+				0D5F5D582A1E516F00D61A2C /* AppetizerDetailView.swift in Sources */,
 				0D5F5D222A1BBC1300D61A2C /* Alert.swift in Sources */,
 				0D5F5D242A1BCBAC00D61A2C /* LoadingView.swift in Sources */,
 				0D5F5D122A1AF92C00D61A2C /* AppetizerListView.swift in Sources */,
