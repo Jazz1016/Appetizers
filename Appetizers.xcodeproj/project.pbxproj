@@ -31,6 +31,7 @@
 		0D5F5D652A1E849D00D61A2C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5F5D642A1E849D00D61A2C /* User.swift */; };
 		0D5F5D682A1EA3BE00D61A2C /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5F5D672A1EA3BE00D61A2C /* EmptyState.swift */; };
 		0D5F5D6A2A1EA7F700D61A2C /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5F5D692A1EA7F700D61A2C /* Order.swift */; };
+		0D5F5D6C2A1ECC5C00D61A2C /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5F5D6B2A1ECC5C00D61A2C /* CustomModifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		0D5F5D642A1E849D00D61A2C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		0D5F5D672A1EA3BE00D61A2C /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 		0D5F5D692A1EA7F700D61A2C /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		0D5F5D6B2A1ECC5C00D61A2C /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +204,7 @@
 				0D5F5D352A1BD96300D61A2C /* Image */,
 				0D5F5D362A1BD96E00D61A2C /* Cells */,
 				0D5F5D342A1BD94700D61A2C /* UIKit Components */,
+				0D5F5D6B2A1ECC5C00D61A2C /* CustomModifiers.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				0D5F5D582A1E516F00D61A2C /* AppetizerDetailView.swift in Sources */,
 				0D5F5D222A1BBC1300D61A2C /* Alert.swift in Sources */,
 				0D5F5D242A1BCBAC00D61A2C /* LoadingView.swift in Sources */,
+				0D5F5D6C2A1ECC5C00D61A2C /* CustomModifiers.swift in Sources */,
 				0D5F5D122A1AF92C00D61A2C /* AppetizerListView.swift in Sources */,
 				0D5F5D162A1AF93A00D61A2C /* OrderView.swift in Sources */,
 			);

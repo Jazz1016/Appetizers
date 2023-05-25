@@ -27,8 +27,10 @@ struct OrderView: View {
                         
                     } label: {
                         let cost = order.items.reduce(0.0) {$0 + $1.price}
-                        APButton(title: "$\(cost, specifier: "%.2f") - Place Order")
+//                        APButton(title: "$\(cost, specifier: "%.2f") - Place Order")
+                        Text("$\(cost, specifier: "%.2f") - Place Order")
                     }
+                    .modifier(StandardButtonStyle())
                     .padding(.bottom, 20)
                     
                 }
